@@ -1,0 +1,19 @@
+{
+    "name": "custom-audio",
+    "version": "0.0.1",
+    "description": "Custom audio sounds for micro:bit V2",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "main.ts",
+        "customaudio.cpp",
+        "sounds/sounds.h"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
